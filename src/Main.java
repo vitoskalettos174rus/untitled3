@@ -4,7 +4,7 @@ public class Main {
         int bonus = 100;
         int upload = 2000;
 
-        if (upload >= 1000) {
+        if (upload > 1000) {
             bonus = upload / bonus;
         } else {
             bonus = 0;
